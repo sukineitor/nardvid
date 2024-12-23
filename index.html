@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NardVid</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">NardVid</a>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Buscar videos...">
+                <button id="search-button">Buscar</button>
+            </div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#about">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="search-suggestion" class="hidden"></div>
+        <section id="featured">
+            <h2>Videos Destacados</h2>
+            <div id="video-grid" class="video-grid"></div>
+        </section>
+
+        <section id="player" class="hidden">
+            <div id="video-container"></div>
+            <div class="controls">
+                <button id="play-pause">Play</button>
+                <input type="range" id="progress" min="0" max="100" value="0">
+                <span id="time-display">0:00 / 0:00</span>
+                <input type="range" id="volume" min="0" max="100" value="100">
+            </div>
+        </section>
+
+        <section id="about" class="hidden">
+            <h2>Acerca de NardVid</h2>
+            <p>NardVid es una plataforma de streaming que combina lo mejor de YouTube y otras plataformas, ofreciendo una amplia variedad de contenido de alta calidad sin necesidad de una suscripción.</p>
+            <p>Nuestra misión es proporcionar entretenimiento accesible y diverso para todos los gustos, desde películas taquilleras hasta series de culto y contenido original.</p>
+            <p>Explora nuestra selección curada de videos, descubre nuevos favoritos y disfruta de una experiencia de visualización sin interrupciones en NardVid.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 NardVid. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
