@@ -31,11 +31,13 @@ nav {
 }
 
 .logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--accent-color);
-    text-decoration: none;
+    height: 50px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 nav ul {
@@ -174,3 +176,4 @@ footer {
     margin-top: 0.5rem;
     font-style: italic;
 }
+
