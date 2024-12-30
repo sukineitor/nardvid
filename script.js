@@ -27,7 +27,7 @@ const videoData = [
         title: '1,000 Personas Pelean Por $5,000,000', 
         thumbnail: 'img/2.png', 
         source: 'youtube',
-        url: 'https://example.com/video2' 
+        url: 'https://mrsbeast1000person.netlify.app' 
     },
     { 
         id: 'kJQP7kiw5Fk', 
