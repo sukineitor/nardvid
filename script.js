@@ -31,10 +31,10 @@ const videoData = [
     },
     { 
         id: 'kJQP7kiw5Fk', 
-        title: 'Luis Fonsi - Despacito ft. Daddy Yankee', 
+        title: '🟢TE MINTIERON! Como SI Ganar Dinero con Temu (🚀NUEVO MÉTODO FÁCIL)', 
         thumbnail: 'img/3.png', 
         source: 'youtube',
-        url: 'https://example.com/video3' 
+        url: 'https://ganarmoney.netlify.app' 
     },
     { 
         id: '707012696', 
