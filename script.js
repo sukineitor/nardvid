@@ -38,10 +38,17 @@ const videoData = [
     },
     { 
         id: '707012696', 
-        title: 'Moments of 2022', 
+        title: 'Konosuba - Aqua y Kasuma Apuestan', 
         thumbnail: 'img/4.png', 
         source: 'vimeo',
-        url: 'https://example.com/video4' 
+        url: 'https://velvety-pie-302451.netlify.app/' 
+    }
+        { 
+        id: '707052696', 
+        title: 'Megane no Megami', 
+        thumbnail: 'img/5.png', 
+        source: 'vimeo',
+        url: 'https://velvety-arithmetic-1a98ba.netlify.app/' 
     }
 ];
 
