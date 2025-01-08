@@ -42,8 +42,8 @@ const videoData = [
         thumbnail: 'img/4.png', 
         source: 'vimeo',
         url: 'https://velvety-pie-302451.netlify.app/' 
-    }
-        { 
+    },
+    { 
         id: '707052696', 
         title: 'Megane no Megami', 
         thumbnail: 'img/5.png', 
